@@ -29,7 +29,12 @@ enum WhisperModel {
 
   /// large model for all languages
   largeV1("large-v1"),
-  largeV2("large-v2");
+
+  largeV2("large-v2"),
+
+  largeV3("large-v3"),
+  
+  largeV3Turbo("large-v3-turbo");
 
   const WhisperModel(this.modelName);
 
