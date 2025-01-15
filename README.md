@@ -13,9 +13,9 @@ and Android
 2. Support Android 5.0+ & iOS 13+ & MacOS 11+
 3. It is optimized and fast
 
-Supported models: tiny、base、small、medium、large-v1、large-v2
+Supported models: tiny,base,small,medium,large-v1,large-v2
 
-Recommended Models：base、small、medium
+Recommended Models：base,small,medium
 
 All models have been actually tested, test devices: Android: Google Pixel 7 Pro, iOS: M1 iOS
 simulator，MacOS: M1 MacBookPro & M2 MacMini
@@ -61,7 +61,7 @@ final String transcription = await whisper.transcribe(
         audio: jfkPath,
         isTranslate: true, // Translate result from audio lang to english text
         isNoTimestamps: false, // Get segments in result
-        splitOnWord: true, // Split segments on each word 
+        splitOnWord: true, // Split segments on each word
     ),
 );
 print(transcription);
