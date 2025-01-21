@@ -27,6 +27,10 @@ enum WhisperModel {
   /// medium model for all languages
   medium("medium"),
 
+  mediumQ5("medium-q5_0"),
+
+  mediumQ8("medium-q8_0"),
+
   /// large model for all languages
   largeV1("large-v1"),
 
