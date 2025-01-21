@@ -36,7 +36,9 @@ enum WhisperModel {
 
   largeV3Q5("large-v3-q5_0"),
 
-  largeV3Turbo("large-v3-turbo");
+  largeV3Turbo("large-v3-turbo"),
+
+  largeV3TurboQ5("large-v3-turbo-q5_0");
 
   const WhisperModel(this.modelName);
 
